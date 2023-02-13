@@ -13,7 +13,6 @@ public class Rainbow {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число:");
         int number = scanner.nextInt();
-        exampleSwitch("синий");
         if (number >= 70){
             System.out.println("красный");
         } else if (number >= 60){
